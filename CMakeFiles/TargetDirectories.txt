@@ -1,7 +1,0 @@
-/home/yairzach/code/mobile_chat/CMakeFiles/edit_cache.dir
-/home/yairzach/code/mobile_chat/CMakeFiles/rebuild_cache.dir
-/home/yairzach/code/mobile_chat/src/CMakeFiles/main.dir
-/home/yairzach/code/mobile_chat/src/CMakeFiles/edit_cache.dir
-/home/yairzach/code/mobile_chat/src/CMakeFiles/rebuild_cache.dir
-/home/yairzach/code/mobile_chat/_deps/json-build/CMakeFiles/edit_cache.dir
-/home/yairzach/code/mobile_chat/_deps/json-build/CMakeFiles/rebuild_cache.dir
