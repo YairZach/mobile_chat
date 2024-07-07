@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/yairzach/code/mobile_chat/backend/build/src",
+  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -std=c++23 -g -o CMakeFiles/main.dir/main.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/main.cpp",
+  "file": "/home/yairzach/code/mobile_chat/backend/src/main.cpp"
+},
+{
+  "directory": "/home/yairzach/code/mobile_chat/backend/build/src",
+  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -std=c++23 -g -o CMakeFiles/main.dir/communicator.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/communicator.cpp",
+  "file": "/home/yairzach/code/mobile_chat/backend/src/communicator.cpp"
+},
+{
+  "directory": "/home/yairzach/code/mobile_chat/backend/build/src",
+  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -std=c++23 -g -o CMakeFiles/main.dir/loggedUser.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/loggedUser.cpp",
+  "file": "/home/yairzach/code/mobile_chat/backend/src/loggedUser.cpp"
+},
+{
+  "directory": "/home/yairzach/code/mobile_chat/backend/build/src",
+  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -std=c++23 -g -o CMakeFiles/main.dir/loginManager.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/loginManager.cpp",
+  "file": "/home/yairzach/code/mobile_chat/backend/src/loginManager.cpp"
+},
+{
+  "directory": "/home/yairzach/code/mobile_chat/backend/build/src",
+  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -std=c++23 -g -o CMakeFiles/main.dir/loginRequestHandler.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/loginRequestHandler.cpp",
+  "file": "/home/yairzach/code/mobile_chat/backend/src/loginRequestHandler.cpp"
+},
+{
+  "directory": "/home/yairzach/code/mobile_chat/backend/build/src",
+  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -std=c++23 -g -o CMakeFiles/main.dir/requestHandlerFactory.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/requestHandlerFactory.cpp",
+  "file": "/home/yairzach/code/mobile_chat/backend/src/requestHandlerFactory.cpp"
+},
+{
+  "directory": "/home/yairzach/code/mobile_chat/backend/build/src",
+  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -std=c++23 -g -o CMakeFiles/main.dir/server.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/server.cpp",
+  "file": "/home/yairzach/code/mobile_chat/backend/src/server.cpp"
+}
+]
