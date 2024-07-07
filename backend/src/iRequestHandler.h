@@ -15,5 +15,5 @@ class IRequestHandler {
 public:
   virtual bool isRequestRelevent(Handlers::RequestInfo r) = 0;
   virtual Handlers::RequestResult handleRequest(Handlers::RequestInfo r) = 0;
-  virtual ~IRequestHandler() = 0;
+  virtual ~IRequestHandler() {}
 };

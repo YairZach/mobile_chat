@@ -1,37 +1,67 @@
 [
 {
   "directory": "/home/yairzach/code/mobile_chat/backend/build/src",
-  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -std=c++23 -g -o CMakeFiles/main.dir/main.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/main.cpp",
+  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -I/home/yairzach/code/mobile_chat/backend/build/_deps/fmt-src/include -std=c++23 -g -o CMakeFiles/main.dir/main.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/main.cpp",
   "file": "/home/yairzach/code/mobile_chat/backend/src/main.cpp"
 },
 {
   "directory": "/home/yairzach/code/mobile_chat/backend/build/src",
-  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -std=c++23 -g -o CMakeFiles/main.dir/communicator.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/communicator.cpp",
+  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -I/home/yairzach/code/mobile_chat/backend/build/_deps/fmt-src/include -std=c++23 -g -o CMakeFiles/main.dir/communicator.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/communicator.cpp",
   "file": "/home/yairzach/code/mobile_chat/backend/src/communicator.cpp"
 },
 {
   "directory": "/home/yairzach/code/mobile_chat/backend/build/src",
-  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -std=c++23 -g -o CMakeFiles/main.dir/loggedUser.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/loggedUser.cpp",
+  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -I/home/yairzach/code/mobile_chat/backend/build/_deps/fmt-src/include -std=c++23 -g -o CMakeFiles/main.dir/loggedUser.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/loggedUser.cpp",
   "file": "/home/yairzach/code/mobile_chat/backend/src/loggedUser.cpp"
 },
 {
   "directory": "/home/yairzach/code/mobile_chat/backend/build/src",
-  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -std=c++23 -g -o CMakeFiles/main.dir/loginManager.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/loginManager.cpp",
+  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -I/home/yairzach/code/mobile_chat/backend/build/_deps/fmt-src/include -std=c++23 -g -o CMakeFiles/main.dir/loginManager.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/loginManager.cpp",
   "file": "/home/yairzach/code/mobile_chat/backend/src/loginManager.cpp"
 },
 {
   "directory": "/home/yairzach/code/mobile_chat/backend/build/src",
-  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -std=c++23 -g -o CMakeFiles/main.dir/loginRequestHandler.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/loginRequestHandler.cpp",
+  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -I/home/yairzach/code/mobile_chat/backend/build/_deps/fmt-src/include -std=c++23 -g -o CMakeFiles/main.dir/loginRequestHandler.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/loginRequestHandler.cpp",
   "file": "/home/yairzach/code/mobile_chat/backend/src/loginRequestHandler.cpp"
 },
 {
   "directory": "/home/yairzach/code/mobile_chat/backend/build/src",
-  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -std=c++23 -g -o CMakeFiles/main.dir/requestHandlerFactory.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/requestHandlerFactory.cpp",
+  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -I/home/yairzach/code/mobile_chat/backend/build/_deps/fmt-src/include -std=c++23 -g -o CMakeFiles/main.dir/requestHandlerFactory.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/requestHandlerFactory.cpp",
   "file": "/home/yairzach/code/mobile_chat/backend/src/requestHandlerFactory.cpp"
 },
 {
   "directory": "/home/yairzach/code/mobile_chat/backend/build/src",
-  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -std=c++23 -g -o CMakeFiles/main.dir/server.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/server.cpp",
+  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -I/home/yairzach/code/mobile_chat/backend/build/_deps/fmt-src/include -std=c++23 -g -o CMakeFiles/main.dir/server.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/server.cpp",
   "file": "/home/yairzach/code/mobile_chat/backend/src/server.cpp"
+},
+{
+  "directory": "/home/yairzach/code/mobile_chat/backend/build/src",
+  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -I/home/yairzach/code/mobile_chat/backend/build/_deps/fmt-src/include -std=c++23 -g -o CMakeFiles/main.dir/jsonSerializer.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/jsonSerializer.cpp",
+  "file": "/home/yairzach/code/mobile_chat/backend/src/jsonSerializer.cpp"
+},
+{
+  "directory": "/home/yairzach/code/mobile_chat/backend/build/src",
+  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -I/home/yairzach/code/mobile_chat/backend/build/_deps/fmt-src/include -std=c++23 -g -o CMakeFiles/main.dir/jsonDeserializer.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/jsonDeserializer.cpp",
+  "file": "/home/yairzach/code/mobile_chat/backend/src/jsonDeserializer.cpp"
+},
+{
+  "directory": "/home/yairzach/code/mobile_chat/backend/build/src",
+  "command": "/usr/bin/cc  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -I/home/yairzach/code/mobile_chat/backend/build/_deps/fmt-src/include -g -o CMakeFiles/main.dir/sqlite3..c.o -c /home/yairzach/code/mobile_chat/backend/src/sqlite3..c",
+  "file": "/home/yairzach/code/mobile_chat/backend/src/sqlite3..c"
+},
+{
+  "directory": "/home/yairzach/code/mobile_chat/backend/build/src",
+  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/json-src/include -I/home/yairzach/code/mobile_chat/backend/build/_deps/fmt-src/include -std=c++23 -g -o CMakeFiles/main.dir/sqliteDatabase.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/sqliteDatabase.cpp",
+  "file": "/home/yairzach/code/mobile_chat/backend/src/sqliteDatabase.cpp"
+},
+{
+  "directory": "/home/yairzach/code/mobile_chat/backend/build/_deps/fmt-build",
+  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/fmt-src/include -std=c++23 -g -o CMakeFiles/fmt.dir/src/format.cc.o -c /home/yairzach/code/mobile_chat/backend/build/_deps/fmt-src/src/format.cc",
+  "file": "/home/yairzach/code/mobile_chat/backend/build/_deps/fmt-src/src/format.cc"
+},
+{
+  "directory": "/home/yairzach/code/mobile_chat/backend/build/_deps/fmt-build",
+  "command": "/usr/bin/c++  -I/home/yairzach/code/mobile_chat/backend/build/_deps/fmt-src/include -std=c++23 -g -o CMakeFiles/fmt.dir/src/os.cc.o -c /home/yairzach/code/mobile_chat/backend/build/_deps/fmt-src/src/os.cc",
+  "file": "/home/yairzach/code/mobile_chat/backend/build/_deps/fmt-src/src/os.cc"
 }
 ]

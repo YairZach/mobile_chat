@@ -85,6 +85,51 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
 	cd /home/yairzach/code/mobile_chat/backend/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yairzach/code/mobile_chat/backend/build/CMakeFiles /home/yairzach/code/mobile_chat/backend/build/src//CMakeFiles/progress.marks
@@ -153,6 +198,54 @@ communicator.s: communicator.cpp.s
 communicator.cpp.s:
 	cd /home/yairzach/code/mobile_chat/backend/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/communicator.cpp.s
 .PHONY : communicator.cpp.s
+
+jsonDeserializer.o: jsonDeserializer.cpp.o
+.PHONY : jsonDeserializer.o
+
+# target to build an object file
+jsonDeserializer.cpp.o:
+	cd /home/yairzach/code/mobile_chat/backend/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/jsonDeserializer.cpp.o
+.PHONY : jsonDeserializer.cpp.o
+
+jsonDeserializer.i: jsonDeserializer.cpp.i
+.PHONY : jsonDeserializer.i
+
+# target to preprocess a source file
+jsonDeserializer.cpp.i:
+	cd /home/yairzach/code/mobile_chat/backend/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/jsonDeserializer.cpp.i
+.PHONY : jsonDeserializer.cpp.i
+
+jsonDeserializer.s: jsonDeserializer.cpp.s
+.PHONY : jsonDeserializer.s
+
+# target to generate assembly for a file
+jsonDeserializer.cpp.s:
+	cd /home/yairzach/code/mobile_chat/backend/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/jsonDeserializer.cpp.s
+.PHONY : jsonDeserializer.cpp.s
+
+jsonSerializer.o: jsonSerializer.cpp.o
+.PHONY : jsonSerializer.o
+
+# target to build an object file
+jsonSerializer.cpp.o:
+	cd /home/yairzach/code/mobile_chat/backend/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/jsonSerializer.cpp.o
+.PHONY : jsonSerializer.cpp.o
+
+jsonSerializer.i: jsonSerializer.cpp.i
+.PHONY : jsonSerializer.i
+
+# target to preprocess a source file
+jsonSerializer.cpp.i:
+	cd /home/yairzach/code/mobile_chat/backend/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/jsonSerializer.cpp.i
+.PHONY : jsonSerializer.cpp.i
+
+jsonSerializer.s: jsonSerializer.cpp.s
+.PHONY : jsonSerializer.s
+
+# target to generate assembly for a file
+jsonSerializer.cpp.s:
+	cd /home/yairzach/code/mobile_chat/backend/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/jsonSerializer.cpp.s
+.PHONY : jsonSerializer.cpp.s
 
 loggedUser.o: loggedUser.cpp.o
 .PHONY : loggedUser.o
@@ -298,6 +391,54 @@ server.cpp.s:
 	cd /home/yairzach/code/mobile_chat/backend/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/server.cpp.s
 .PHONY : server.cpp.s
 
+sqlite3..o: sqlite3..c.o
+.PHONY : sqlite3..o
+
+# target to build an object file
+sqlite3..c.o:
+	cd /home/yairzach/code/mobile_chat/backend/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/sqlite3..c.o
+.PHONY : sqlite3..c.o
+
+sqlite3..i: sqlite3..c.i
+.PHONY : sqlite3..i
+
+# target to preprocess a source file
+sqlite3..c.i:
+	cd /home/yairzach/code/mobile_chat/backend/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/sqlite3..c.i
+.PHONY : sqlite3..c.i
+
+sqlite3..s: sqlite3..c.s
+.PHONY : sqlite3..s
+
+# target to generate assembly for a file
+sqlite3..c.s:
+	cd /home/yairzach/code/mobile_chat/backend/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/sqlite3..c.s
+.PHONY : sqlite3..c.s
+
+sqliteDatabase.o: sqliteDatabase.cpp.o
+.PHONY : sqliteDatabase.o
+
+# target to build an object file
+sqliteDatabase.cpp.o:
+	cd /home/yairzach/code/mobile_chat/backend/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/sqliteDatabase.cpp.o
+.PHONY : sqliteDatabase.cpp.o
+
+sqliteDatabase.i: sqliteDatabase.cpp.i
+.PHONY : sqliteDatabase.i
+
+# target to preprocess a source file
+sqliteDatabase.cpp.i:
+	cd /home/yairzach/code/mobile_chat/backend/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/sqliteDatabase.cpp.i
+.PHONY : sqliteDatabase.cpp.i
+
+sqliteDatabase.s: sqliteDatabase.cpp.s
+.PHONY : sqliteDatabase.s
+
+# target to generate assembly for a file
+sqliteDatabase.cpp.s:
+	cd /home/yairzach/code/mobile_chat/backend/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/sqliteDatabase.cpp.s
+.PHONY : sqliteDatabase.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -305,11 +446,21 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... main"
 	@echo "... communicator.o"
 	@echo "... communicator.i"
 	@echo "... communicator.s"
+	@echo "... jsonDeserializer.o"
+	@echo "... jsonDeserializer.i"
+	@echo "... jsonDeserializer.s"
+	@echo "... jsonSerializer.o"
+	@echo "... jsonSerializer.i"
+	@echo "... jsonSerializer.s"
 	@echo "... loggedUser.o"
 	@echo "... loggedUser.i"
 	@echo "... loggedUser.s"
@@ -328,6 +479,12 @@ help:
 	@echo "... server.o"
 	@echo "... server.i"
 	@echo "... server.s"
+	@echo "... sqlite3..o"
+	@echo "... sqlite3..i"
+	@echo "... sqlite3..s"
+	@echo "... sqliteDatabase.o"
+	@echo "... sqliteDatabase.i"
+	@echo "... sqliteDatabase.s"
 .PHONY : help
 
 

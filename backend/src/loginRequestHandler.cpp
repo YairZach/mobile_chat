@@ -1,5 +1,6 @@
 #include "loginRequestHandler.h"
-#include "jsonDesrializer.h"
+#include "handlers.h"
+#include "jsonDeserializer.h"
 #include "jsonSerializer.h"
 #include "requests.h"
 #include "responses.h"
@@ -34,6 +35,20 @@ Handlers::RequestResult LoginRequestHandler::login(Handlers::RequestInfo r) {
   Responses::Login resp;
   resp.status =
       this->_handlerFactory.getLoginManager().login(req.username, req.password);
+  res.buffer = JsonSerializer::serializeResponse(resp);
+  if (resp.status == 0) {
+    // TODO(Yair Zach) add handler for logged in users
+  } else
+    res.newHandler = this->_handlerFactory.createLoginRequestHandler();
+  return res;
+}
+
+Handlers::RequestResult LoginRequestHandler::signup(Handlers::RequestInfo r) {
+  Handlers::RequestResult res;
+  Requests::Signup req = JsonDesrializer::deserializeSingupRequest(r.buffer);
+  Responses::Signup resp;
+  resp.status = this->_handlerFactory.getLoginManager().signup(
+      req.username, req.password, req.email);
   res.buffer = JsonSerializer::serializeResponse(resp);
   if (resp.status == 0) {
     // TODO(Yair Zach) add handler for logged in users

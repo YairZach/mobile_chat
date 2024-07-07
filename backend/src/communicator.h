@@ -36,5 +36,5 @@ private:
   void handleNewClient(int clientSocket);
   int _serverSocket;
   map<int, IRequestHandler *> _clients;
-  RequestHandlerFactory &_handleFactory;
+  RequestHandlerFactory &_handlerFactory;
 };

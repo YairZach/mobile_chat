@@ -1,10 +1,24 @@
 #include "communicator.h"
 #include "handlers.h"
 #include "iRequestHandler.h"
+#include "requestHandlerFactory.h"
 #include <iostream>
 #include <netinet/in.h>
 #include <stdexcept>
 #include <sys/socket.h>
+
+Communicator::Communicator(RequestHandlerFactory &factory)
+    : _handlerFactory(factory) {
+  this->_serverSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+}
+
+Communicator::~Communicator() {
+  cout << "closing the socket" << endl;
+  try {
+    close(this->_serverSocket);
+  } catch (...) {
+  }
+}
 
 void Communicator::bindAndListen() {
   this->_serverSocket = socket(AF_INET, SOCK_STREAM, 0);
@@ -32,7 +46,7 @@ void Communicator::startHandleRequest() {
       throw std::runtime_error("cant connect to client");
 
     this->_clients[clientSocket] = reinterpret_cast<IRequestHandler *>(
-        this->_handleFactory.createLoginRequestHandler());
+        this->_handlerFactory.createLoginRequestHandler());
 
     thread tr(&Communicator::handleNewClient, this, clientSocket);
     tr.detach();

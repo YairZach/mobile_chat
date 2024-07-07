@@ -10,5 +10,6 @@ public:
   virtual bool close() = 0;
   virtual bool doesUserExist(string name) = 0;
   virtual bool doesPasswordMatch(string name, string pass) = 0;
-  virtual int addNewUser(string name, string pass, string email);
+  virtual int addNewUser(string name, string pass, string email) = 0;
+  virtual ~IDatabase() {}
 };

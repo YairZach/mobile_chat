@@ -28,7 +28,7 @@ private:
 
 public:
   explicit LoginManager(IDatabase *db) : _db(db) {}
-  ~LoginManager();
+  ~LoginManager() {}
   int signup(string name, string pass, string email);
   int login(string name, string pass);
   int logout(string name);

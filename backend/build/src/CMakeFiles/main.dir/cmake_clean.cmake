@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/communicator.cpp.o"
   "CMakeFiles/main.dir/communicator.cpp.o.d"
+  "CMakeFiles/main.dir/jsonDeserializer.cpp.o"
+  "CMakeFiles/main.dir/jsonDeserializer.cpp.o.d"
+  "CMakeFiles/main.dir/jsonSerializer.cpp.o"
+  "CMakeFiles/main.dir/jsonSerializer.cpp.o.d"
   "CMakeFiles/main.dir/loggedUser.cpp.o"
   "CMakeFiles/main.dir/loggedUser.cpp.o.d"
   "CMakeFiles/main.dir/loginManager.cpp.o"
@@ -13,11 +17,15 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/requestHandlerFactory.cpp.o.d"
   "CMakeFiles/main.dir/server.cpp.o"
   "CMakeFiles/main.dir/server.cpp.o.d"
+  "CMakeFiles/main.dir/sqlite3..c.o"
+  "CMakeFiles/main.dir/sqlite3..c.o.d"
+  "CMakeFiles/main.dir/sqliteDatabase.cpp.o"
+  "CMakeFiles/main.dir/sqliteDatabase.cpp.o.d"
   "main"
   "main.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang C CXX)
   include(CMakeFiles/main.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

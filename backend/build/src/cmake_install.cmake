@@ -47,3 +47,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/yairzach/code/mobile_chat/backend/build/_deps/json-build/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/yairzach/code/mobile_chat/backend/build/_deps/fmt-build/cmake_install.cmake")
+endif()
+

@@ -167,6 +167,62 @@ src/CMakeFiles/main.dir/server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/server.cpp.s"
 	cd /home/yairzach/code/mobile_chat/backend/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yairzach/code/mobile_chat/backend/src/server.cpp -o CMakeFiles/main.dir/server.cpp.s
 
+src/CMakeFiles/main.dir/jsonSerializer.cpp.o: src/CMakeFiles/main.dir/flags.make
+src/CMakeFiles/main.dir/jsonSerializer.cpp.o: ../src/jsonSerializer.cpp
+src/CMakeFiles/main.dir/jsonSerializer.cpp.o: src/CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yairzach/code/mobile_chat/backend/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/main.dir/jsonSerializer.cpp.o"
+	cd /home/yairzach/code/mobile_chat/backend/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/main.dir/jsonSerializer.cpp.o -MF CMakeFiles/main.dir/jsonSerializer.cpp.o.d -o CMakeFiles/main.dir/jsonSerializer.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/jsonSerializer.cpp
+
+src/CMakeFiles/main.dir/jsonSerializer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/jsonSerializer.cpp.i"
+	cd /home/yairzach/code/mobile_chat/backend/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yairzach/code/mobile_chat/backend/src/jsonSerializer.cpp > CMakeFiles/main.dir/jsonSerializer.cpp.i
+
+src/CMakeFiles/main.dir/jsonSerializer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/jsonSerializer.cpp.s"
+	cd /home/yairzach/code/mobile_chat/backend/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yairzach/code/mobile_chat/backend/src/jsonSerializer.cpp -o CMakeFiles/main.dir/jsonSerializer.cpp.s
+
+src/CMakeFiles/main.dir/jsonDeserializer.cpp.o: src/CMakeFiles/main.dir/flags.make
+src/CMakeFiles/main.dir/jsonDeserializer.cpp.o: ../src/jsonDeserializer.cpp
+src/CMakeFiles/main.dir/jsonDeserializer.cpp.o: src/CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yairzach/code/mobile_chat/backend/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/main.dir/jsonDeserializer.cpp.o"
+	cd /home/yairzach/code/mobile_chat/backend/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/main.dir/jsonDeserializer.cpp.o -MF CMakeFiles/main.dir/jsonDeserializer.cpp.o.d -o CMakeFiles/main.dir/jsonDeserializer.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/jsonDeserializer.cpp
+
+src/CMakeFiles/main.dir/jsonDeserializer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/jsonDeserializer.cpp.i"
+	cd /home/yairzach/code/mobile_chat/backend/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yairzach/code/mobile_chat/backend/src/jsonDeserializer.cpp > CMakeFiles/main.dir/jsonDeserializer.cpp.i
+
+src/CMakeFiles/main.dir/jsonDeserializer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/jsonDeserializer.cpp.s"
+	cd /home/yairzach/code/mobile_chat/backend/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yairzach/code/mobile_chat/backend/src/jsonDeserializer.cpp -o CMakeFiles/main.dir/jsonDeserializer.cpp.s
+
+src/CMakeFiles/main.dir/sqlite3..c.o: src/CMakeFiles/main.dir/flags.make
+src/CMakeFiles/main.dir/sqlite3..c.o: ../src/sqlite3..c
+src/CMakeFiles/main.dir/sqlite3..c.o: src/CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yairzach/code/mobile_chat/backend/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/CMakeFiles/main.dir/sqlite3..c.o"
+	cd /home/yairzach/code/mobile_chat/backend/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/main.dir/sqlite3..c.o -MF CMakeFiles/main.dir/sqlite3..c.o.d -o CMakeFiles/main.dir/sqlite3..c.o -c /home/yairzach/code/mobile_chat/backend/src/sqlite3..c
+
+src/CMakeFiles/main.dir/sqlite3..c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/sqlite3..c.i"
+	cd /home/yairzach/code/mobile_chat/backend/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yairzach/code/mobile_chat/backend/src/sqlite3..c > CMakeFiles/main.dir/sqlite3..c.i
+
+src/CMakeFiles/main.dir/sqlite3..c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/sqlite3..c.s"
+	cd /home/yairzach/code/mobile_chat/backend/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yairzach/code/mobile_chat/backend/src/sqlite3..c -o CMakeFiles/main.dir/sqlite3..c.s
+
+src/CMakeFiles/main.dir/sqliteDatabase.cpp.o: src/CMakeFiles/main.dir/flags.make
+src/CMakeFiles/main.dir/sqliteDatabase.cpp.o: ../src/sqliteDatabase.cpp
+src/CMakeFiles/main.dir/sqliteDatabase.cpp.o: src/CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yairzach/code/mobile_chat/backend/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/main.dir/sqliteDatabase.cpp.o"
+	cd /home/yairzach/code/mobile_chat/backend/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/main.dir/sqliteDatabase.cpp.o -MF CMakeFiles/main.dir/sqliteDatabase.cpp.o.d -o CMakeFiles/main.dir/sqliteDatabase.cpp.o -c /home/yairzach/code/mobile_chat/backend/src/sqliteDatabase.cpp
+
+src/CMakeFiles/main.dir/sqliteDatabase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/sqliteDatabase.cpp.i"
+	cd /home/yairzach/code/mobile_chat/backend/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yairzach/code/mobile_chat/backend/src/sqliteDatabase.cpp > CMakeFiles/main.dir/sqliteDatabase.cpp.i
+
+src/CMakeFiles/main.dir/sqliteDatabase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/sqliteDatabase.cpp.s"
+	cd /home/yairzach/code/mobile_chat/backend/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yairzach/code/mobile_chat/backend/src/sqliteDatabase.cpp -o CMakeFiles/main.dir/sqliteDatabase.cpp.s
+
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.cpp.o" \
@@ -175,7 +231,11 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/loginManager.cpp.o" \
 "CMakeFiles/main.dir/loginRequestHandler.cpp.o" \
 "CMakeFiles/main.dir/requestHandlerFactory.cpp.o" \
-"CMakeFiles/main.dir/server.cpp.o"
+"CMakeFiles/main.dir/server.cpp.o" \
+"CMakeFiles/main.dir/jsonSerializer.cpp.o" \
+"CMakeFiles/main.dir/jsonDeserializer.cpp.o" \
+"CMakeFiles/main.dir/sqlite3..c.o" \
+"CMakeFiles/main.dir/sqliteDatabase.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
@@ -187,9 +247,14 @@ src/main: src/CMakeFiles/main.dir/loginManager.cpp.o
 src/main: src/CMakeFiles/main.dir/loginRequestHandler.cpp.o
 src/main: src/CMakeFiles/main.dir/requestHandlerFactory.cpp.o
 src/main: src/CMakeFiles/main.dir/server.cpp.o
+src/main: src/CMakeFiles/main.dir/jsonSerializer.cpp.o
+src/main: src/CMakeFiles/main.dir/jsonDeserializer.cpp.o
+src/main: src/CMakeFiles/main.dir/sqlite3..c.o
+src/main: src/CMakeFiles/main.dir/sqliteDatabase.cpp.o
 src/main: src/CMakeFiles/main.dir/build.make
+src/main: _deps/fmt-build/libfmtd.a
 src/main: src/CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yairzach/code/mobile_chat/backend/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yairzach/code/mobile_chat/backend/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable main"
 	cd /home/yairzach/code/mobile_chat/backend/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

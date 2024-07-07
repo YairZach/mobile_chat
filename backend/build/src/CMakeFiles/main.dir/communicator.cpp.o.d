@@ -150,6 +150,7 @@ src/CMakeFiles/main.dir/communicator.cpp.o: \
  /home/yairzach/code/mobile_chat/backend/src/iDatabase.h \
  /home/yairzach/code/mobile_chat/backend/src/loginManager.h \
  /home/yairzach/code/mobile_chat/backend/src/loggedUser.h \
+ /home/yairzach/code/mobile_chat/backend/src/loginRequestHandler.h \
  /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
  /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/nested_exception.h \

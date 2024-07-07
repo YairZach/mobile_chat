@@ -1,4 +1,6 @@
-#include <exception>
+#include "communicator.h"
+#include "iDatabase.h"
+#include "requestHandlerFactory.h"
 #include <iostream>
 #include <string>
 #include <thread>
@@ -10,5 +12,12 @@ using std::thread;
 
 class Server {
 public:
+  Server();
+  ~Server();
   void run();
+
+private:
+  Communicator _communicator;
+  IDatabase *_db;
+  RequestHandlerFactory _handlerFactory;
 };
